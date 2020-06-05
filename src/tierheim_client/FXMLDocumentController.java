@@ -27,6 +27,7 @@ public class FXMLDocumentController implements Initializable {
 
     @FXML
     private void addTier(ActionEvent event) {
+            int i = 0;
     }
 
     @FXML
