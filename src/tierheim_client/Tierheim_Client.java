@@ -25,6 +25,8 @@ public class Tierheim_Client extends Application {
         
         stage.setScene(scene);
         stage.show();
+        
+        
     }
 
     /**

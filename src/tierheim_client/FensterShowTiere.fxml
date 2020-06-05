@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="491.0" prefWidth="937.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="tierheim_client.FensterShowTiereController">
+   <children>
+      <Label layoutX="47.0" layoutY="31.0" text="Unsere Tiere" textFill="#0b7914">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TableView fx:id="myTableView" layoutY="78.0" prefHeight="413.0" prefWidth="937.0">
+        <columns>
+          <TableColumn fx:id="clmnName" prefWidth="194.0" text="Name" />
+          <TableColumn fx:id="clmnTyp" prefWidth="183.0" text="Typ" />
+            <TableColumn fx:id="clmnAge" prefWidth="56.0" text="Alter" />
+            <TableColumn fx:id="clmnGender" prefWidth="133.0" text="Geschlecht" />
+            <TableColumn fx:id="clmnLebensraum" prefWidth="199.0" text="bevorzugter Lebensraum" />
+            <TableColumn fx:id="clmnImage" prefWidth="171.0" text="Bild" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
